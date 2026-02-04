@@ -1,1 +1,1 @@
-TABLE: (table/main.html)[Table]
+TABLE: [Table](table/main.html)
