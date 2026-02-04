@@ -1,6 +1,6 @@
 # 🏇 HTML Table Assignment
 
-A simple HTML assignment displaying the **Arima Kinen 2025** horse racing results in a styled table format.
+A simple HTML assignment demonstrating table structures using **Arima Kinen 2025** horse racing results.
 
 ## 📁 Project Structure
 
@@ -11,27 +11,30 @@ A simple HTML assignment displaying the **Arima Kinen 2025** horse racing result
     └── main.html          # Horse racing results table
 ```
 
-## 📊 Contents
+## ✅ Assignment Requirements Met
 
-This project demonstrates basic HTML table features including:
-- Table headers with column spans
-- Row and cell styling (background colors, borders)
-- Aligned content (center, bold text)
-- Cell padding and spacing
+This project demonstrates the following HTML table techniques:
+
+| Requirement | Implementation |
+|-------------|----------------|
+| ✅ Basic table structure | Uses `<table>`, `<tr>`, `<td>`, `<th>` elements |
+| ✅ Cell padding & spacing | `cellpadding="8"` and `cellspacing="5"` attributes |
+| ✅ Column spans | `colspan` used for headers and data cells (e.g., 14-column header, 2-column horse name) |
+| ✅ Row spans | `rowspan` used where applicable |
+| ✅ Background colors | `bgcolor` applied to header rows (#8B0000, #1E88E5) and alternating data rows (#FFCC80, #FFCF88, etc.) |
+| ✅ Proper table structure | Organized rows with headers, aligned content, and merged cells |
+
+## 📊 Features Demonstrated
+
+- **Table Headers**: Colored header rows with white text
+- **Column Spanning**: Headers spanning multiple columns for grouped data
+- **Row Styling**: Alternating background colors for readability
+- **Cell Alignment**: Center-aligned data with bold positioning markers
+- **Borders**: Custom border styling with `bordercolor` attribute
 
 ## 🚀 View the Table
 
-Open [`table/main.html`](table/main.html) in your browser to see the results table displaying:
-- Final positions (FP)
-- Barrier positions (BK)
-- Jockey names
-- Finishing times
-- Margins and odds
-- Trainer information
-
-## 🎯 Race Details
-
-**Arima Kinen 2025** - A prestigious Japanese horse race featuring top thoroughbreds with results including Museum Mile, Cosmo Kuranda, Danon Decile, and Regaleira.
+Open [`table/main.html`](table/main.html) in your browser to see the complete results table.
 
 ---
-*Created as part of an HTML fundamentals assignment*
+*HTML Table Fundamentals Assignment*
